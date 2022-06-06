@@ -63,9 +63,9 @@ You need to set up a way for GitHub to confirm your identity, and the clone link
 
 You can't just push to any GitHub repository you want. Imagine the chaos if any random user could make arbitrary changes to popular open-source projects! Instead you need to be granted permission to make changes to a particular repository. One way to guarantee that you have permission is to make a new GitHub repository yourself, so we're going to do just that.
 
-This repository is just being used for practice, so it can be public or private and can use any name you want.
+This repository is just being used for practice, so it can use any name you want.
 
-Go to https://github.com/new to make a new repository. Type in a name, make sure you check the box next to **Add a README file**, then click the **Create repository** button at the bottom.
+Go to https://github.com/new to make a new repository. Type in a name, set the visibility to **Public**, make sure you check the box next to **Add a README file**, then click the **Create repository** button at the bottom.
 
 ## Getting Credit for Contributions
 
@@ -110,6 +110,8 @@ Now that you are in an appropriate place, run `git clone <clone url>`, where `<c
 _In Windows, in Git Bash, to paste from the clipboard the shortcut should be **shift-insert**._
 
 This will create a new subdirectory whose name is the same as the repository name on GitHub!
+
+If you are prompted for a username and password, this means you accidentally made the repository private rather than public. Follow the instructions [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#making-a-repository-public) then once you have saved the visibility settings, try again to clone.
 
 #### Moving into the Repository
 
